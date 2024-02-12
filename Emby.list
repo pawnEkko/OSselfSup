@@ -1,8 +1,6 @@
 # NAME: Emby
 DOMAIN,emby.enjoyit.eu.org
-DOMAIN-SUFFIX,http://stream1.misakaf.org
-DOMAIN-SUFFIX,http://stream2.misakaf.org
-DOMAIN-SUFFIX,http://stream3.misakaf.org
+DOMAIN-SUFFIX,misakaf.org
 DOMAIN-SUFFIX,aws.jmsooo.com
 DOMAIN-SUFFIX,cf1.jmsooo.com
 DOMAIN-SUFFIX,cristiamo.xyz
