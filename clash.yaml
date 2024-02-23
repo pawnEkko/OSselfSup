@@ -162,14 +162,10 @@ proxy-groups:
 
   - name: Telegram
     type: select
-    proxies:
-      - Proxy
-      - HK
-      - TW
-      - US
-      - JP
-      - SG
-      - Final_Match
+    filter: (?i)狮|獅|🇸🇬|加坡|SG|Singapore
+    use: 
+      - airport01_Subscription
+      - airport02_Subscription
  
   - name: Facebook
     type: select
