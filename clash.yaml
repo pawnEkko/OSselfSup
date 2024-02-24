@@ -191,14 +191,9 @@ proxy-groups:
 
   - name: Emby
     type: select
-    proxies:
-      - Proxy
-      - HK
-      - TW
-      - US
-      - JP
-      - SG
-      - Final_Match
+    use: 
+      - airport01_Subscription
+      - airport02_Subscription
 
   - name: TikTok
     type: select
@@ -265,6 +260,8 @@ proxy-groups:
 
   - name: Final_Match
     type: select
+    proxies:
+      - Proxy
     use: 
       - airport01_Subscription
       - airport02_Subscription
