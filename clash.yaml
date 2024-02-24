@@ -192,7 +192,7 @@ proxy-groups:
 
   - name: TikTok
     type: select
-    proxie: 
+    proxies: 
       - TW
       - US
       - JP
