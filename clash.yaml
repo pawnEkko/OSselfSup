@@ -213,14 +213,10 @@ proxy-groups:
 
   - name: ChatGPT
     type: select
-    proxies:
-      - Proxy
-      - HK
-      - TW
-      - US
-      - JP
-      - SG
-      - Final_Match
+    filter: (?i)美(国|國)|🇺🇸|US|States|American
+    use: 
+      - airport01_Subscription
+      - airport02_Subscription
 
 
   - name: Apple
@@ -340,28 +336,28 @@ rule-providers:
     type: http
     behavior: ipcidr
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix_IP.yaml
-    path: ./Rule/Netflix.yaml
+    path: ./Rule/Netflix_IP.yaml
     interval: 3600
 
   Disney: 
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.yaml                                                                                                                                                                                                                                                                                                                                                          
-    path: ./Rule/Netflix.yaml
+    path: ./Rule/Disney.yaml
     interval: 3600
 
   HBO: 
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBO/HBO.yaml                                                                                                                                                                                                                                                                                                                                                          
-    path: ./Rule/Netflix.yaml
+    path: ./Rule/HBO.yaml
     interval: 3600
 
   Bahamut: 
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Bahamut/Bahamut.yaml                                                                                                                                                                                                                                                                                                                                                          
-    path: ./Rule/Netflix.yaml
+    path: ./Rule/Bahamut.yaml
     interval: 3600
 
   Spotify: 
@@ -396,28 +392,28 @@ rule-providers:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/pawnEkko/OSselfSup/main/Emby.yaml
-    path: ./Rule/Twitter.yaml
+    path: ./Rule/Emby.yaml
     interval: 3600
 
   TikTok: 
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml
-    path: ./Rule/Twitter.yaml
+    path: ./Rule/TikTok.yaml
     interval: 3600
 
   ChatGPT: 
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.yaml
-    path: ./Rule/Twitter.yaml
+    path: ./Rule/ChatGPT.yaml
     interval: 3600
 
   GoogleVoice: 
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleVoice/GoogleVoice.yaml
-    path: ./Rule/Twitter.yaml
+    path: ./Rule/GoogleVoice.yaml
     interval: 3600
 
   Apple: 
@@ -431,14 +427,14 @@ rule-providers:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleID/AppleID.yaml
-    path: ./Rule/Apple.yaml
+    path: ./Rule/AppleID.yaml
     interval: 86400
 
   AppleProxy: 
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleProxy/AppleProxy.yaml
-    path: ./Rule/Apple.yaml
+    path: ./Rule/AppleProxy.yaml
     interval: 86400
 
   Google: 
@@ -466,7 +462,7 @@ rule-providers:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising.yaml
-    path: ./Rule/China.yaml
+    path: ./Rule/Advertising.yaml
     interval: 3600
 
 ## 规则指向设置
@@ -481,6 +477,7 @@ rules:
   - RULE-SET,Facebook,Facebook 
   - RULE-SET,Google,Google
   - RULE-SET,Netflix,Netflix 
+  - RULE-SET,Netflix_IP,Netflix
   - RULE-SET,Spotify,Spotify
   - RULE-SET,Telegram,Telegram 
   - RULE-SET,Twitter,Twitter
