@@ -140,14 +140,9 @@ proxy-groups:
 
   - name: 动画疯
     type: select
-    proxies:
-      - Proxy
-      - HK
-      - TW
-      - US
-      - JP
-      - SG
-      - Final_Match
+    proxies: 
+      - airport01
+      - airport02
 
   - name: Spotify
     type: select
@@ -191,20 +186,16 @@ proxy-groups:
 
   - name: Emby
     type: select
-    use: 
-      - airport01_Subscription
-      - airport02_Subscription
+    proxies: 
+      - airport01
+      - airport02
 
   - name: TikTok
     type: select
-    proxies:
-      - Proxy
-      - HK
+    proxie: 
       - TW
       - US
       - JP
-      - SG
-      - Final_Match
 
   - name: ChatGPT
     type: select
@@ -217,7 +208,6 @@ proxy-groups:
   - name: Apple
     type: select
     proxies:
-      - Proxy
       - TW
       - US
       - JP
@@ -262,9 +252,8 @@ proxy-groups:
     type: select
     proxies:
       - Proxy
-    use: 
-      - airport01_Subscription
-      - airport02_Subscription
+      - airport01
+      - airport02
 
   - name: HK
     type: select
