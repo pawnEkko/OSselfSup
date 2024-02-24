@@ -451,20 +451,25 @@ rule-providers:
 rules:
   # 远程订阅规则指向
 
-  - RULE-SET,Apple,Apple
-  - RULE-SET,Facebook,Facebook 
-  - RULE-SET,Google,Google
-  - RULE-SET,Netflix,Netflix 
-  - RULE-SET,Netflix_IP,Netflix
-  - RULE-SET,Spotify,Spotify
-  - RULE-SET,Telegram,Telegram 
-  - RULE-SET,Twitter,Twitter
+  - RULE-SET,Proxy,Proxy
   - RULE-SET,YouTube,YouTube
-  - RULE-SET,Emby,Emby
-  - RULE-SET,TikTok,TikTok
+  - RULE-SET,Netflix,Netflix
+  - RULE-SET,Netflix_IP,Netflix
   - RULE-SET,HBO,HBO
   - RULE-SET,Disney,Disney
   - RULE-SET,Bahamut,动画疯
+  - RULE-SET,Spotify,Spotify
+  - RULE-SET,Telegram,Telegram
+  - RULE-SET,Facebook,Facebook
+  - RULE-SET,Twitter,Twitter
+  - RULE-SET,Emby,Emby
+  - RULE-SET,TikTok,TikTok
+  - RULE-SET,ChatGPT,ChatGPT
+  - RULE-SET,GoogleVoice,GoogleVoice
+  - RULE-SET,Apple,Apple
+  - RULE-SET,AppleID,Apple
+  - RULE-SET,AppleProxy,Apple
+  - RULE-SET,Google,Google
   - RULE-SET,PayPal,PayPal
  # - RULE-SET,Advertising,REJECT
   - RULE-SET,China,China
