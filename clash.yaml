@@ -466,7 +466,7 @@ rules:
   - RULE-SET,Disney,Disney
   - RULE-SET,Bahamut,动画疯
   - RULE-SET,PayPal,PayPal
-  - RULE-SET,Advertising,REJECT
+ # - RULE-SET,Advertising,REJECT
   - RULE-SET,China,China
 
   # 默认规则设置
