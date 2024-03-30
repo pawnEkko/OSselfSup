@@ -714,7 +714,7 @@ rules:
   - RULE-SET,China,𝑪𝒉𝒊𝒏𝒂
 
   # 默认规则设置
-  - DOMAIN-SUFFIX,live.cn,China
+  - DOMAIN-SUFFIX,live.cn,𝑪𝒉𝒊𝒏𝒂
   - PROCESS-NAME,v2ray,DIRECT
   - PROCESS-NAME,xray,DIRECT
   - PROCESS-NAME,naive,DIRECT
