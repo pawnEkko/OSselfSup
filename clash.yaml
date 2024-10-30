@@ -788,12 +788,11 @@ rules:
   - RULE-SET,ChatGPT,𝑶𝒑𝒆𝒏𝑨𝑰
   - RULE-SET,Copilot,𝑶𝒑𝒆𝒏𝑨𝑰
   - RULE-SET,Gemini,𝑶𝒑𝒆𝒏𝑨𝑰
-  - RULE-SET,GoogleVoice,☎𝑮𝒐𝒐𝒈𝒍𝒆𝑽𝒐𝒊𝒄𝒆
+  - RULE-SET,GoogleVoice,𝑮𝒐𝒐𝒈𝒍𝒆𝑽𝒐𝒊𝒄𝒆
   - RULE-SET,Apple,𝑨𝒑𝒑𝒍𝒆
   - RULE-SET,AppleID,𝑨𝒑𝒑𝒍𝒆
   - RULE-SET,AppleProxy,𝑨𝒑𝒑𝒍𝒆
   - RULE-SET,Google,𝑮𝒐𝒐𝒈𝒍𝒆
-  - RULE-SET,PayPal,𝑷𝒂𝒚𝑷𝒂𝒍
  # - RULE-SET,Advertising,REJECT
   - RULE-SET,China,𝑪𝒉𝒊𝒏𝒂
 
