@@ -213,10 +213,11 @@ proxy-providers:
 ##
 
 proxy-groups:
-  - name: 🚀𝑷𝒓𝒐𝒙𝒚
+  - name: 𝑷𝒓𝒐𝒙𝒚
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Auto_Speed.png
     type: select
     proxies: 
-      - 💪🐤𝑴𝒊𝒏𝒆𝑪𝒉𝒊𝒄𝒌𝒆𝒏
+      - 𝑴𝒊𝒏𝒆𝑪𝒉𝒊𝒄𝒌𝒆𝒏
       - airport00
       - airport01
       - airport02
@@ -228,107 +229,123 @@ proxy-groups:
       - airport08
       - airport09
 
-    - name: 💪🐤𝑴𝒊𝒏𝒆𝑪𝒉𝒊𝒄𝒌𝒆𝒏   # 💪🐤𝑴𝒊𝒏𝒆𝑪𝒉𝒊𝒄𝒌𝒆𝒏策略组是我自己用来添加自建节点的没有自建节点可以不用管或者删掉，同时要删掉🚀𝑷𝒓𝒐𝒙𝒚中的💪🐤𝑴𝒊𝒏𝒆𝑪𝒉𝒊𝒄𝒌𝒆𝒏
+    - name: 𝑴𝒊𝒏𝒆𝑪𝒉𝒊𝒄𝒌𝒆𝒏   # 𝑴𝒊𝒏𝒆𝑪𝒉𝒊𝒄𝒌𝒆𝒏策略组是我自己用来添加自建节点的没有自建节点可以不用管或者删掉，同时要删掉𝑷𝒓𝒐𝒙𝒚中的𝑴𝒊𝒏𝒆𝑪𝒉𝒊𝒄𝒌𝒆𝒏
+      icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Siri.png
       Type: select
       proxies:
 
 
   - name: airport00
+    icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Category_News.png
     type: select
     use: 
       - airport00_Subscription
 
   - name: airport01
+    icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Category_News.png
     type: select
     use: 
       - airport01_Subscription
 
   - name: airport02
+    icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Category_News.png
     type: select
     use: 
       - airport02_Subscription
 
   - name: airport03
+    icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Category_News.png
     type: select
     use: 
       - airport03_Subscription
 
   - name: airport04
+    icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Category_News.png
     type: select
     use: 
       - airport04_Subscription
 
   - name: airport05
+    icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Category_News.png
     type: select
     use: 
       - airport05_Subscription
 
   - name: airport06
+    icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Category_News.png
     type: select
     use: 
       - airport06_Subscription
 
   - name: airport07
+    icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Category_News.png
     type: select
     use: 
       - airport07_Subscription
 
   - name: airport08
+    icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Category_News.png
     type: select
     use: 
       - airport08_Subscription
 
   - name: airport09
+    icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Category_News.png
     type: select
     use: 
       - airport09_Subscription
 
-  - name: 💻𝒀𝒐𝒖𝑻𝒖𝒃𝒆
+  - name: 𝒀𝒐𝒖𝑻𝒖𝒃𝒆
     type: select
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/YouTube.png
     proxies:
-      - 🚀𝑷𝒓𝒐𝒙𝒚
-      - 🇭🇰𝑯𝑲
-      - 🇨🇳𝑻𝑾
-      - 🇺🇸𝑼𝑺
-      - 🇯🇵𝑱𝑷
-      - 🇸🇬𝑺𝑮
-      - 🛑𝑭𝒊𝒏𝒂𝒍_𝑴𝒂𝒕𝒄𝒉
+      - 𝑷𝒓𝒐𝒙𝒚
+      - 𝑯𝑲
+      - 𝑻𝑾
+      - 𝑼𝑺
+      - 𝑱𝑷
+      - 𝑺𝑮
+      - 𝑭𝒊𝒏𝒂𝒍_𝑴𝒂𝒕𝒄𝒉
 
-  - name: 🐶𝑵𝒆𝒕𝒇𝒍𝒊𝒙
+  - name: 𝑵𝒆𝒕𝒇𝒍𝒊𝒙
     type: select
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Netflix.png
     proxies:
-      - 🚀𝑷𝒓𝒐𝒙𝒚
-      - 🇭🇰𝑯𝑲
-      - 🇨🇳𝑻𝑾
-      - 🇺🇸𝑼𝑺
-      - 🇯🇵𝑱𝑷
-      - 🇸🇬𝑺𝑮
-      - 🛑𝑭𝒊𝒏𝒂𝒍_𝑴𝒂𝒕𝒄𝒉
+      - 𝑷𝒓𝒐𝒙𝒚
+      - 𝑯𝑲
+      - 𝑻𝑾
+      - 𝑼𝑺
+      - 𝑱𝑷
+      - 𝑺𝑮
+      - 𝑭𝒊𝒏𝒂𝒍_𝑴𝒂𝒕𝒄𝒉
 
-  - name: 🐱𝑫𝒊𝒔𝒏𝒆𝒚
+  - name: 𝑫𝒊𝒔𝒏𝒆𝒚
     type: select
+    icon: https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/disney(blue).png
     proxies:
-      - 🚀𝑷𝒓𝒐𝒙𝒚
-      - 🇭🇰𝑯𝑲
-      - 🇨🇳𝑻𝑾
-      - 🇺🇸𝑼𝑺
-      - 🇯🇵𝑱𝑷
-      - 🇸🇬𝑺𝑮
-      - 🛑𝑭𝒊𝒏𝒂𝒍_𝑴𝒂𝒕𝒄𝒉
+      - 𝑷𝒓𝒐𝒙𝒚
+      - 𝑯𝑲
+      - 𝑻𝑾
+      - 𝑼𝑺
+      - 𝑱𝑷
+      - 𝑺𝑮
+      - 𝑭𝒊𝒏𝒂𝒍_𝑴𝒂𝒕𝒄𝒉
 
-  - name: 🐈𝑯𝑩𝑶
+  - name: 𝑯𝑩𝑶
     type: select
+    icon: https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/HBO.png
     proxies:
-      - 🚀𝑷𝒓𝒐𝒙𝒚
-      - 🇭🇰𝑯𝑲
-      - 🇨🇳𝑻𝑾
-      - 🇺🇸𝑼𝑺
-      - 🇯🇵𝑱𝑷
-      - 🇸🇬𝑺𝑮
-      - 🛑𝑭𝒊𝒏𝒂𝒍_𝑴𝒂𝒕𝒄𝒉
+      - 𝑷𝒓𝒐𝒙𝒚
+      - 𝑯𝑲
+      - 𝑻𝑾
+      - 𝑼𝑺
+      - 𝑱𝑷
+      - 𝑺𝑮
+      - 𝑭𝒊𝒏𝒂𝒍_𝑴𝒂𝒕𝒄𝒉
 
-  - name: 🖥️动画疯
+  - name: 动画疯
     type: select
+    icon: https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/bahamute.png
     proxies: 
       - airport00
       - airport01
@@ -341,19 +358,21 @@ proxy-groups:
       - airport08
       - airport09
 
-  - name: 🎵𝑺𝒑𝒐𝒕𝒊𝒇𝒚
+  - name: 𝑺𝒑𝒐𝒕𝒊𝒇𝒚
     type: select
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/Spotify.png
     proxies:
-      - 🚀𝑷𝒓𝒐𝒙𝒚
-      - 🇭🇰𝑯𝑲
-      - 🇨🇳𝑻𝑾
-      - 🇺🇸𝑼𝑺
-      - 🇯🇵𝑱𝑷
-      - 🇸🇬𝑺𝑮
-      - 🛑𝑭𝒊𝒏𝒂𝒍_𝑴𝒂𝒕𝒄𝒉
+      - 𝑷𝒓𝒐𝒙𝒚
+      - 𝑯𝑲
+      - 𝑻𝑾
+      - 𝑼𝑺
+      - 𝑱𝑷
+      - 𝑺𝑮
+      - 𝑭𝒊𝒏𝒂𝒍_𝑴𝒂𝒕𝒄𝒉
 
-  - name: 📱𝑻𝒆𝒍𝒆𝒈𝒓𝒂𝒎
+  - name: 𝑻𝒆𝒍𝒆𝒈𝒓𝒂𝒎
     type: select
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/Telegram.png
     filter: (?i)狮|獅|🇸🇬|加坡|SG|Singapore
     use: 
       - airport00_Subscription
@@ -367,30 +386,33 @@ proxy-groups:
       - airport08_Subscription
       - airport09_Subscription
  
-  - name: 📚𝑭𝒂𝒄𝒆𝒃𝒐𝒐𝒌
+  - name: 𝑭𝒂𝒄𝒆𝒃𝒐𝒐𝒌
     type: select
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/Facebook.png
     proxies:
-      - 🚀𝑷𝒓𝒐𝒙𝒚
-      - 🇭🇰𝑯𝑲
-      - 🇨🇳𝑻𝑾
-      - 🇺🇸𝑼𝑺
-      - 🇯🇵𝑱𝑷
-      - 🇸🇬𝑺𝑮
-      - 🛑𝑭𝒊𝒏𝒂𝒍_𝑴𝒂𝒕𝒄𝒉
+      - 𝑷𝒓𝒐𝒙𝒚
+      - 𝑯𝑲
+      - 𝑻𝑾
+      - 𝑼𝑺
+      - 𝑱𝑷
+      - 𝑺𝑮
+      - 𝑭𝒊𝒏𝒂𝒍_𝑴𝒂𝒕𝒄𝒉
 
-  - name: 📃𝑻𝒘𝒊𝒕𝒕𝒆𝒓
+  - name: 𝑻𝒘𝒊𝒕𝒕𝒆𝒓
     type: select
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/Twitter.png
     proxies:
-      - 🚀𝑷𝒓𝒐𝒙𝒚
-      - 🇭🇰𝑯𝑲
-      - 🇨🇳𝑻𝑾
-      - 🇺🇸𝑼𝑺
-      - 🇯🇵𝑱𝑷
-      - 🇸🇬𝑺𝑮
-      - 🛑𝑭𝒊𝒏𝒂𝒍_𝑴𝒂𝒕𝒄𝒉
+      - 𝑷𝒓𝒐𝒙𝒚
+      - 𝑯𝑲
+      - 𝑻𝑾
+      - 𝑼𝑺
+      - 𝑱𝑷
+      - 𝑺𝑮
+      - 𝑭𝒊𝒏𝒂𝒍_𝑴𝒂𝒕𝒄𝒉
 
-  - name: 📺𝑬𝒎𝒃𝒚
+  - name: 𝑬𝒎𝒃𝒚
     type: select
+    icon: https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/emby.png
     filter: (?i)美(国|國)|🇺🇸|US|States|American
     proxies: 
       - airport00
@@ -404,15 +426,17 @@ proxy-groups:
       - airport08
       - airport09
 
-  - name: 🎮𝑻𝒊𝒌𝑻𝒐𝒌
+  - name: 𝑻𝒊𝒌𝑻𝒐𝒌
     type: select
+    icon: https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/emby.png
     proxies: 
-      - 🇨🇳𝑻𝑾
-      - 🇺🇸𝑼𝑺
-      - 🇯🇵𝑱𝑷
+      - 𝑻𝑾
+      - 𝑼𝑺
+      - 𝑱𝑷
 
-  - name: 🤖𝑶𝒑𝒆𝒏𝑨𝑰
+  - name: 𝑶𝒑𝒆𝒏𝑨𝑰
     type: select
+    icon: https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/chatgpt4.0.png
     filter: (?i)美(国|國)|🇺🇸|US|States|American
     use: 
       - airport00_Subscription
@@ -427,38 +451,30 @@ proxy-groups:
       - airport09_Subscription
 
 
-  - name: 🍎𝑨𝒑𝒑𝒍𝒆
+  - name: 𝑨𝒑𝒑𝒍𝒆
     type: select
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/Apple.png
     proxies:
-      - 🇨🇳𝑻𝑾
-      - 🇺🇸𝑼𝑺
-      - 🇯🇵𝑱𝑷
+      - 𝑻𝑾
+      - 𝑼𝑺
+      - 𝑱𝑷
       - DIRECT
 
-  - name: 🌐𝑮𝒐𝒐𝒈𝒍𝒆
+  - name: 𝑮𝒐𝒐𝒈𝒍𝒆
     type: select
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Google_Suite/Google.png
     proxies:
-      - 🚀𝑷𝒓𝒐𝒙𝒚
-      - 🇭🇰𝑯𝑲
-      - 🇨🇳𝑻𝑾
-      - 🇺🇸𝑼𝑺
-      - 🇯🇵𝑱𝑷
-      - 🇸🇬𝑺𝑮
-      - 🛑𝑭𝒊𝒏𝒂𝒍_𝑴𝒂𝒕𝒄𝒉
+      - 𝑷𝒓𝒐𝒙𝒚
+      - 𝑯𝑲
+      - 𝑻𝑾
+      - 𝑼𝑺
+      - 𝑱𝑷
+      - 𝑺𝑮
+      - 𝑭𝒊𝒏𝒂𝒍_𝑴𝒂𝒕𝒄𝒉
 
-  - name: 💰𝑷𝒂𝒚𝑷𝒂𝒍
+  - name: 𝑮𝒐𝒐𝒈𝒍𝒆𝑽𝒐𝒊𝒄𝒆
     type: select
-    proxies:
-      - 🚀𝑷𝒓𝒐𝒙𝒚
-      - 🇭🇰𝑯𝑲
-      - 🇨🇳𝑻𝑾
-      - 🇺🇸𝑼𝑺
-      - 🇯🇵𝑱𝑷
-      - 🇸🇬𝑺𝑮
-      - 🛑𝑭𝒊𝒏𝒂𝒍_𝑴𝒂𝒕𝒄𝒉
-
-  - name: ☎️𝑮𝒐𝒐𝒈𝒍𝒆𝑽𝒐𝒊𝒄𝒆
-    type: select
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Google_Suite/Voice.png
     filter: (?i)美(国|國)|🇺🇸|US|States|American
     use: 
       - airport00_Subscription
@@ -475,13 +491,14 @@ proxy-groups:
   - name: 𝑪𝒉𝒊𝒏𝒂
     type: select
     proxies: 
-      - 🚀𝑷𝒓𝒐𝒙𝒚
+      - 𝑷𝒓𝒐𝒙𝒚
       - DIRECT
 
-  - name: 🛑𝑭𝒊𝒏𝒂𝒍_𝑴𝒂𝒕𝒄𝒉
+  - name: 𝑭𝒊𝒏𝒂𝒍_𝑴𝒂𝒕𝒄𝒉
     type: select
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Google_Suite/Google.png
     proxies:
-      - 🚀𝑷𝒓𝒐𝒙𝒚
+      - 𝑷𝒓𝒐𝒙𝒚
       - airport00
       - airport01
       - airport02
@@ -493,8 +510,9 @@ proxy-groups:
       - airport08
       - airport09
 
-  - name: 🇭🇰𝑯𝑲
-    type: select
+  - name: 𝑯𝑲
+    type: url-test
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/Hong_Kong.png
     filter: (?i)香港|🇭🇰|HK|Hong
     use: 
       - airport00_Subscription
@@ -508,8 +526,9 @@ proxy-groups:
       - airport08_Subscription
       - airport09_Subscription
 
-  - name: 🇨🇳𝑻𝑾
-    type: select
+  - name: 𝑻𝑾
+    type: url-test
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/China.png
     filter: (?i)台(湾|灣)|🇨🇳|TW|Taiwan
     use: 
       - airport00_Subscription
@@ -523,8 +542,9 @@ proxy-groups:
       - airport08_Subscription
       - airport09_Subscription
 
-  - name: 🇺🇸𝑼𝑺
-    type: select
+  - name: 𝑼𝑺
+    type: url-test
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/United_States.png
     filter: (?i)美(国|國)|🇺🇸|US|States|American
     use: 
       - airport00_Subscription
@@ -538,8 +558,9 @@ proxy-groups:
       - airport08_Subscription
       - airport09_Subscription
 
-  - name: 🇯🇵𝑱𝑷
-    type: select
+  - name: 𝑱𝑷
+    type: url-test
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/Japan.png
     filter: (?i)日本|🇯🇵|(东|東)京|JP|Japan
     use: 
       - airport00_Subscription
@@ -553,8 +574,9 @@ proxy-groups:
       - airport08_Subscription
       - airport09_Subscription
 
-  - name: 🇸🇬𝑺𝑮
-    type: select
+  - name: 𝑺𝑮
+    type: url-test
+    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/Singapore.png
     filter: (?i)狮|獅|🇸🇬|加坡|SG|Singapore
     use: 
       - airport00_Subscription
@@ -750,28 +772,28 @@ rule-providers:
 rules:
   # 远程订阅规则指向
 
-  - RULE-SET,Proxy,🚀𝑷𝒓𝒐𝒙𝒚
-  - RULE-SET,YouTube,💻𝒀𝒐𝒖𝑻𝒖𝒃𝒆
-  - RULE-SET,Netflix,🐶𝑵𝒆𝒕𝒇𝒍𝒊𝒙
-  - RULE-SET,Netflix_IP,🐶𝑵𝒆𝒕𝒇𝒍𝒊𝒙
-  - RULE-SET,HBO,🐈𝑯𝑩𝑶
-  - RULE-SET,Disney,🐱𝑫𝒊𝒔𝒏𝒆𝒚
-  - RULE-SET,Bahamut,🖥️动画疯
-  - RULE-SET,Spotify,🎵𝑺𝒑𝒐𝒕𝒊𝒇𝒚
-  - RULE-SET,Telegram,📱𝑻𝒆𝒍𝒆𝒈𝒓𝒂𝒎
-  - RULE-SET,Facebook,📚𝑭𝒂𝒄𝒆𝒃𝒐𝒐𝒌
-  - RULE-SET,Twitter,📃𝑻𝒘𝒊𝒕𝒕𝒆𝒓
-  - RULE-SET,Emby,📺𝑬𝒎𝒃𝒚
-  - RULE-SET,TikTok,🎮𝑻𝒊𝒌𝑻𝒐𝒌
-  - RULE-SET,ChatGPT,🤖𝑶𝒑𝒆𝒏𝑨𝑰
-  - RULE-SET,Copilot,🤖𝑶𝒑𝒆𝒏𝑨𝑰
-  - RULE-SET,Gemini,🤖𝑶𝒑𝒆𝒏𝑨𝑰
-  - RULE-SET,GoogleVoice,☎️𝑮𝒐𝒐𝒈𝒍𝒆𝑽𝒐𝒊𝒄𝒆
-  - RULE-SET,Apple,🍎𝑨𝒑𝒑𝒍𝒆
-  - RULE-SET,AppleID,🍎𝑨𝒑𝒑𝒍𝒆
-  - RULE-SET,AppleProxy,🍎𝑨𝒑𝒑𝒍𝒆
-  - RULE-SET,Google,🌐𝑮𝒐𝒐𝒈𝒍𝒆
-  - RULE-SET,PayPal,💰𝑷𝒂𝒚𝑷𝒂𝒍
+  - RULE-SET,Proxy,𝑷𝒓𝒐𝒙𝒚
+  - RULE-SET,YouTube,𝒀𝒐𝒖𝑻𝒖𝒃𝒆
+  - RULE-SET,Netflix,𝑵𝒆𝒕𝒇𝒍𝒊𝒙
+  - RULE-SET,Netflix_IP,𝑵𝒆𝒕𝒇𝒍𝒊𝒙
+  - RULE-SET,HBO,𝑯𝑩𝑶
+  - RULE-SET,Disney,𝑫𝒊𝒔𝒏𝒆𝒚
+  - RULE-SET,Bahamut,动画疯
+  - RULE-SET,Spotify,𝑺𝒑𝒐𝒕𝒊𝒇𝒚
+  - RULE-SET,Telegram,𝑻𝒆𝒍𝒆𝒈𝒓𝒂𝒎
+  - RULE-SET,Facebook,𝑭𝒂𝒄𝒆𝒃𝒐𝒐𝒌
+  - RULE-SET,Twitter,𝑻𝒘𝒊𝒕𝒕𝒆𝒓
+  - RULE-SET,Emby,𝑬𝒎𝒃𝒚
+  - RULE-SET,TikTok,𝑻𝒊𝒌𝑻𝒐𝒌
+  - RULE-SET,ChatGPT,𝑶𝒑𝒆𝒏𝑨𝑰
+  - RULE-SET,Copilot,𝑶𝒑𝒆𝒏𝑨𝑰
+  - RULE-SET,Gemini,𝑶𝒑𝒆𝒏𝑨𝑰
+  - RULE-SET,GoogleVoice,☎𝑮𝒐𝒐𝒈𝒍𝒆𝑽𝒐𝒊𝒄𝒆
+  - RULE-SET,Apple,𝑨𝒑𝒑𝒍𝒆
+  - RULE-SET,AppleID,𝑨𝒑𝒑𝒍𝒆
+  - RULE-SET,AppleProxy,𝑨𝒑𝒑𝒍𝒆
+  - RULE-SET,Google,𝑮𝒐𝒐𝒈𝒍𝒆
+  - RULE-SET,PayPal,𝑷𝒂𝒚𝑷𝒂𝒍
  # - RULE-SET,Advertising,REJECT
   - RULE-SET,China,𝑪𝒉𝒊𝒏𝒂
 
@@ -837,4 +859,4 @@ rules:
   - IP-CIDR,182.254.116.0/24,DIRECT
   - GEOIP,CN,DIRECT
 
-  - MATCH,🛑𝑭𝒊𝒏𝒂𝒍_𝑴𝒂𝒕𝒄𝒉
+  - MATCH,𝑭𝒊𝒏𝒂𝒍_𝑴𝒂𝒕𝒄𝒉
